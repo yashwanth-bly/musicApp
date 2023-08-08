@@ -8,7 +8,9 @@ class Home extends StatelessWidget {
       height: 500,
       child: GridView.count(
         crossAxisCount: 2,
-        children: [],
+        children: [
+
+        ],
       ),
     );
   }

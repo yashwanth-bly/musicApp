@@ -1,7 +1,14 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:music_app/services/category_operations.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
+
+  List<Widget> createListOfCategory(){
+    List<Category> categoryList = CategoryOperations.getCategories();
+
+  }
 
   Widget createGrid() {
     return SizedBox(
